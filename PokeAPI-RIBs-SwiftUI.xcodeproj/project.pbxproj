@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A0DEFAB22E780F7A002AC3A3 /* RIBs in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAB12E780F7A002AC3A3 /* RIBs */; };
+		A0DEFAB52E780F8D002AC3A3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAB42E780F8D002AC3A3 /* SnapKit */; };
+		A0DEFAB82E780F9B002AC3A3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAB72E780F9B002AC3A3 /* Alamofire */; };
+		A0DEFABB2E7810F8002AC3A3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFABA2E7810F8002AC3A3 /* Realm */; };
+		A0DEFABE2E781296002AC3A3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFABD2E781296002AC3A3 /* Moya */; };
+		A0DEFAC02E781296002AC3A3 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFABF2E781296002AC3A3 /* ReactiveMoya */; };
+		A0DEFAC22E781296002AC3A3 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAC12E781296002AC3A3 /* RxMoya */; };
+		A0DEFAC52E781426002AC3A3 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAC42E781426002AC3A3 /* Nuke */; };
+		A0DEFAC72E781426002AC3A3 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAC62E781426002AC3A3 /* NukeExtensions */; };
+		A0DEFAC92E781426002AC3A3 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAC82E781426002AC3A3 /* NukeUI */; };
+		A0DEFACB2E781426002AC3A3 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFACA2E781426002AC3A3 /* NukeVideo */; };
+		A0DEFACE2E781466002AC3A3 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFACD2E781466002AC3A3 /* MBProgressHUD */; };
+		A0DEFAD12E78148E002AC3A3 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAD02E78148E002AC3A3 /* RxBlocking */; };
+		A0DEFAD32E78148E002AC3A3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAD22E78148E002AC3A3 /* RxCocoa */; };
+		A0DEFAD52E78148E002AC3A3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAD42E78148E002AC3A3 /* RxRelay */; };
+		A0DEFAD72E78148E002AC3A3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAD62E78148E002AC3A3 /* RxSwift */; };
+		A0DEFAD92E78148E002AC3A3 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAD82E78148E002AC3A3 /* RxTest */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A0DEFA932E780ED5002AC3A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +85,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DEFAB82E780F9B002AC3A3 /* Alamofire in Frameworks */,
+				A0DEFAB22E780F7A002AC3A3 /* RIBs in Frameworks */,
+				A0DEFAD52E78148E002AC3A3 /* RxRelay in Frameworks */,
+				A0DEFABB2E7810F8002AC3A3 /* Realm in Frameworks */,
+				A0DEFAD32E78148E002AC3A3 /* RxCocoa in Frameworks */,
+				A0DEFABE2E781296002AC3A3 /* Moya in Frameworks */,
+				A0DEFAC22E781296002AC3A3 /* RxMoya in Frameworks */,
+				A0DEFAC92E781426002AC3A3 /* NukeUI in Frameworks */,
+				A0DEFACE2E781466002AC3A3 /* MBProgressHUD in Frameworks */,
+				A0DEFAB52E780F8D002AC3A3 /* SnapKit in Frameworks */,
+				A0DEFAC02E781296002AC3A3 /* ReactiveMoya in Frameworks */,
+				A0DEFAC52E781426002AC3A3 /* Nuke in Frameworks */,
+				A0DEFAD72E78148E002AC3A3 /* RxSwift in Frameworks */,
+				A0DEFACB2E781426002AC3A3 /* NukeVideo in Frameworks */,
+				A0DEFAC72E781426002AC3A3 /* NukeExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DEFAD92E78148E002AC3A3 /* RxTest in Frameworks */,
+				A0DEFAD12E78148E002AC3A3 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +162,21 @@
 			);
 			name = "PokeAPI-RIBs-SwiftUI";
 			packageProductDependencies = (
+				A0DEFAB12E780F7A002AC3A3 /* RIBs */,
+				A0DEFAB42E780F8D002AC3A3 /* SnapKit */,
+				A0DEFAB72E780F9B002AC3A3 /* Alamofire */,
+				A0DEFABA2E7810F8002AC3A3 /* Realm */,
+				A0DEFABD2E781296002AC3A3 /* Moya */,
+				A0DEFABF2E781296002AC3A3 /* ReactiveMoya */,
+				A0DEFAC12E781296002AC3A3 /* RxMoya */,
+				A0DEFAC42E781426002AC3A3 /* Nuke */,
+				A0DEFAC62E781426002AC3A3 /* NukeExtensions */,
+				A0DEFAC82E781426002AC3A3 /* NukeUI */,
+				A0DEFACA2E781426002AC3A3 /* NukeVideo */,
+				A0DEFACD2E781466002AC3A3 /* MBProgressHUD */,
+				A0DEFAD22E78148E002AC3A3 /* RxCocoa */,
+				A0DEFAD42E78148E002AC3A3 /* RxRelay */,
+				A0DEFAD62E78148E002AC3A3 /* RxSwift */,
 			);
 			productName = "PokeAPI-RIBs-SwiftUI";
 			productReference = A0DEFA7C2E780ED3002AC3A3 /* PokeAPI-RIBs-SwiftUI.app */;
@@ -148,6 +200,8 @@
 			);
 			name = "PokeAPI-RIBs-SwiftUITests";
 			packageProductDependencies = (
+				A0DEFAD02E78148E002AC3A3 /* RxBlocking */,
+				A0DEFAD82E78148E002AC3A3 /* RxTest */,
 			);
 			productName = "PokeAPI-RIBs-SwiftUITests";
 			productReference = A0DEFA922E780ED5002AC3A3 /* PokeAPI-RIBs-SwiftUITests.xctest */;
@@ -208,6 +262,16 @@
 			);
 			mainGroup = A0DEFA732E780ED3002AC3A3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A0DEFAB02E780F7A002AC3A3 /* XCRemoteSwiftPackageReference "RIBs-iOS" */,
+				A0DEFAB32E780F8D002AC3A3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A0DEFAB62E780F9B002AC3A3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A0DEFAB92E7810F8002AC3A3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */,
+				A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */,
+				A0DEFACC2E781466002AC3A3 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A0DEFA7D2E780ED3002AC3A3 /* Products */;
 			projectDirPath = "";
@@ -573,6 +637,161 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0DEFAB02E780F7A002AC3A3 /* XCRemoteSwiftPackageReference "RIBs-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/RIBs-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A0DEFAB32E780F8D002AC3A3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		A0DEFAB62E780F9B002AC3A3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		A0DEFAB92E7810F8002AC3A3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		A0DEFACC2E781466002AC3A3 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0DEFAB12E780F7A002AC3A3 /* RIBs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAB02E780F7A002AC3A3 /* XCRemoteSwiftPackageReference "RIBs-iOS" */;
+			productName = RIBs;
+		};
+		A0DEFAB42E780F8D002AC3A3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAB32E780F8D002AC3A3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A0DEFAB72E780F9B002AC3A3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAB62E780F9B002AC3A3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A0DEFABA2E7810F8002AC3A3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAB92E7810F8002AC3A3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A0DEFABD2E781296002AC3A3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		A0DEFABF2E781296002AC3A3 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		A0DEFAC12E781296002AC3A3 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		A0DEFAC42E781426002AC3A3 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		A0DEFAC62E781426002AC3A3 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		A0DEFAC82E781426002AC3A3 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		A0DEFACA2E781426002AC3A3 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		A0DEFACD2E781466002AC3A3 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFACC2E781466002AC3A3 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		A0DEFAD02E78148E002AC3A3 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		A0DEFAD22E78148E002AC3A3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A0DEFAD42E78148E002AC3A3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		A0DEFAD62E78148E002AC3A3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		A0DEFAD82E78148E002AC3A3 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0DEFA742E780ED3002AC3A3 /* Project object */;
 }
