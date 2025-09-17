@@ -2,21 +2,32 @@
 //  SceneDelegate.swift
 //  PokeAPI-RIBs-SwiftUI
 //
-//  Created by Alif Phincon on 15/09/25.
+//  Created by Alif on 15/09/25.
 //
 
+import netfox
+import RIBs
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    private var launchRouter: LaunchRouting?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        NFX.sharedInstance().start()
+        
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+        
+        let root = RootBuilder(dependency: AppComponent()).build()
+        self.launchRouter = root
+        root.launch(from: window)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

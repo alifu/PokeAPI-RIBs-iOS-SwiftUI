@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0ACB3E12E793C09000E3B64 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0ACB3E02E793C09000E3B64 /* RealmSwift */; };
+		A0B29AA82E7916F200B9189D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B29AA72E7916F200B9189D /* WebKit.framework */; };
+		A0B29AAA2E7916FE00B9189D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B29AA92E7916FE00B9189D /* SwiftUI.framework */; };
+		A0C36E692E793DF20008F936 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = A0C36E682E793DF20008F936 /* netfox */; };
 		A0DEFAB22E780F7A002AC3A3 /* RIBs in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAB12E780F7A002AC3A3 /* RIBs */; };
-		A0DEFAB52E780F8D002AC3A3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAB42E780F8D002AC3A3 /* SnapKit */; };
 		A0DEFAB82E780F9B002AC3A3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAB72E780F9B002AC3A3 /* Alamofire */; };
-		A0DEFABB2E7810F8002AC3A3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFABA2E7810F8002AC3A3 /* Realm */; };
 		A0DEFABE2E781296002AC3A3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFABD2E781296002AC3A3 /* Moya */; };
 		A0DEFAC02E781296002AC3A3 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFABF2E781296002AC3A3 /* ReactiveMoya */; };
 		A0DEFAC22E781296002AC3A3 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A0DEFAC12E781296002AC3A3 /* RxMoya */; };
@@ -43,7 +45,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A0ACB3D72E79390A000E3B64 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A0B29AA72E7916F200B9189D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A0B29AA92E7916FE00B9189D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		A0DEFA7C2E780ED3002AC3A3 /* PokeAPI-RIBs-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeAPI-RIBs-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DEFA922E780ED5002AC3A3 /* PokeAPI-RIBs-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeAPI-RIBs-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DEFA9C2E780ED5002AC3A3 /* PokeAPI-RIBs-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeAPI-RIBs-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,16 +102,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C36E692E793DF20008F936 /* netfox in Frameworks */,
 				A0DEFAB82E780F9B002AC3A3 /* Alamofire in Frameworks */,
 				A0DEFAB22E780F7A002AC3A3 /* RIBs in Frameworks */,
 				A0DEFAD52E78148E002AC3A3 /* RxRelay in Frameworks */,
-				A0DEFABB2E7810F8002AC3A3 /* Realm in Frameworks */,
 				A0DEFAD32E78148E002AC3A3 /* RxCocoa in Frameworks */,
+				A0B29AA82E7916F200B9189D /* WebKit.framework in Frameworks */,
 				A0DEFABE2E781296002AC3A3 /* Moya in Frameworks */,
 				A0DEFAC22E781296002AC3A3 /* RxMoya in Frameworks */,
+				A0B29AAA2E7916FE00B9189D /* SwiftUI.framework in Frameworks */,
+				A0ACB3E12E793C09000E3B64 /* RealmSwift in Frameworks */,
 				A0DEFAC92E781426002AC3A3 /* NukeUI in Frameworks */,
 				A0DEFACE2E781466002AC3A3 /* MBProgressHUD in Frameworks */,
-				A0DEFAB52E780F8D002AC3A3 /* SnapKit in Frameworks */,
 				A0DEFAC02E781296002AC3A3 /* ReactiveMoya in Frameworks */,
 				A0DEFAC52E781426002AC3A3 /* Nuke in Frameworks */,
 				A0DEFAD72E78148E002AC3A3 /* RxSwift in Frameworks */,
@@ -122,12 +141,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0B29AA62E7916F100B9189D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0B29AA92E7916FE00B9189D /* SwiftUI.framework */,
+				A0B29AA72E7916F200B9189D /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0DEFA732E780ED3002AC3A3 = {
 			isa = PBXGroup;
 			children = (
 				A0DEFA7E2E780ED3002AC3A3 /* PokeAPI-RIBs-SwiftUI */,
 				A0DEFA952E780ED5002AC3A3 /* PokeAPI-RIBs-SwiftUITests */,
 				A0DEFA9F2E780ED5002AC3A3 /* PokeAPI-RIBs-SwiftUIUITests */,
+				A0B29AA62E7916F100B9189D /* Frameworks */,
 				A0DEFA7D2E780ED3002AC3A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,6 +181,7 @@
 				A0DEFA782E780ED3002AC3A3 /* Sources */,
 				A0DEFA792E780ED3002AC3A3 /* Frameworks */,
 				A0DEFA7A2E780ED3002AC3A3 /* Resources */,
+				A0ACB3D72E79390A000E3B64 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,9 +193,7 @@
 			name = "PokeAPI-RIBs-SwiftUI";
 			packageProductDependencies = (
 				A0DEFAB12E780F7A002AC3A3 /* RIBs */,
-				A0DEFAB42E780F8D002AC3A3 /* SnapKit */,
 				A0DEFAB72E780F9B002AC3A3 /* Alamofire */,
-				A0DEFABA2E7810F8002AC3A3 /* Realm */,
 				A0DEFABD2E781296002AC3A3 /* Moya */,
 				A0DEFABF2E781296002AC3A3 /* ReactiveMoya */,
 				A0DEFAC12E781296002AC3A3 /* RxMoya */,
@@ -177,6 +205,8 @@
 				A0DEFAD22E78148E002AC3A3 /* RxCocoa */,
 				A0DEFAD42E78148E002AC3A3 /* RxRelay */,
 				A0DEFAD62E78148E002AC3A3 /* RxSwift */,
+				A0ACB3E02E793C09000E3B64 /* RealmSwift */,
+				A0C36E682E793DF20008F936 /* netfox */,
 			);
 			productName = "PokeAPI-RIBs-SwiftUI";
 			productReference = A0DEFA7C2E780ED3002AC3A3 /* PokeAPI-RIBs-SwiftUI.app */;
@@ -264,13 +294,13 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				A0DEFAB02E780F7A002AC3A3 /* XCRemoteSwiftPackageReference "RIBs-iOS" */,
-				A0DEFAB32E780F8D002AC3A3 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				A0DEFAB62E780F9B002AC3A3 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				A0DEFAB92E7810F8002AC3A3 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */,
 				A0DEFAC32E781426002AC3A3 /* XCRemoteSwiftPackageReference "Nuke" */,
 				A0DEFACC2E781466002AC3A3 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				A0DEFACF2E78148E002AC3A3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				A0ACB3DD2E793C09000E3B64 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A0C36E672E793DF20008F936 /* XCRemoteSwiftPackageReference "netfox" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A0DEFA7D2E780ED3002AC3A3 /* Products */;
@@ -639,6 +669,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A0ACB3DD2E793C09000E3B64 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A0C36E672E793DF20008F936 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
 		A0DEFAB02E780F7A002AC3A3 /* XCRemoteSwiftPackageReference "RIBs-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/uber/RIBs-iOS.git";
@@ -647,28 +693,12 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		A0DEFAB32E780F8D002AC3A3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
 		A0DEFAB62E780F9B002AC3A3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.10.2;
-			};
-		};
-		A0DEFAB92E7810F8002AC3A3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
 			};
 		};
 		A0DEFABC2E781296002AC3A3 /* XCRemoteSwiftPackageReference "Moya" */ = {
@@ -706,25 +736,25 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A0ACB3E02E793C09000E3B64 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0ACB3DD2E793C09000E3B64 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A0C36E682E793DF20008F936 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0C36E672E793DF20008F936 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
 		A0DEFAB12E780F7A002AC3A3 /* RIBs */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A0DEFAB02E780F7A002AC3A3 /* XCRemoteSwiftPackageReference "RIBs-iOS" */;
 			productName = RIBs;
 		};
-		A0DEFAB42E780F8D002AC3A3 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0DEFAB32E780F8D002AC3A3 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
 		A0DEFAB72E780F9B002AC3A3 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A0DEFAB62E780F9B002AC3A3 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		A0DEFABA2E7810F8002AC3A3 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A0DEFAB92E7810F8002AC3A3 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
 		};
 		A0DEFABD2E781296002AC3A3 /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;

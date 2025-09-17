@@ -2,7 +2,7 @@
 //  PokeAPI_RIBs_SwiftUIUITests.swift
 //  PokeAPI-RIBs-SwiftUIUITests
 //
-//  Created by Alif Phincon on 15/09/25.
+//  Created by Alif on 15/09/25.
 //
 
 import XCTest
