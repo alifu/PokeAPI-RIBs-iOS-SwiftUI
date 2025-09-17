@@ -2,7 +2,7 @@
 //  PokemonObservableObject.swift
 //  PokeAPI-RIBs-SwiftUI
 //
-//  Created by Alif Phincon on 16/09/25.
+//  Created by Alif on 16/09/25.
 //
 
 import Foundation
